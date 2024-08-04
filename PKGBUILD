@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 # Contributor: Eli Schwartz <eschwartz@archlinux.org>
 
@@ -50,3 +54,4 @@ package() {
 
   python -m installer --destdir="$pkgdir" dist/*.whl
 }
+
